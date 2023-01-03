@@ -13,7 +13,7 @@
 /*ESTILOS PARA TABLET*/
 @media screen and (min-width: 768px){
     body{
-        background-image: linear-gradient(to top, #10366F, #A0CAE5);
+        background-image: linear-gradient(to top, #000000, #A0CAE5);
     }
     #login{
         width: 80vw;
@@ -30,17 +30,24 @@
         width: 70%;
     }
 }
-/*ESTILOS PARA DESKTOP*/
+/*ESTILOS PARA DESKTOP OU TELAS MAIORES*/
 @media screen and (min-width:992px){
     #login{
         width: 950px;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 50%;
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    #formulario > h1{
+        font-size: 2.0em;
+    }
+    #formulario > p{
+        font-size: 1.2em;
     }
 }
