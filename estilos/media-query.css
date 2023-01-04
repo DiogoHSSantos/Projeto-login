@@ -13,11 +13,11 @@
 /*ESTILOS PARA TABLET*/
 @media screen and (min-width: 768px){
     body{
-        background-image: linear-gradient(to top, #000000, #A0CAE5);
+        background-image: linear-gradient(to top, #000000, #10366F);
     }
     #login{
         width: 80vw;
-        height: 70vh;
+        height: 48vh;
         box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.658);
     }
     #imagem{
@@ -34,6 +34,7 @@
 @media screen and (min-width:992px){
     #login{
         width: 950px;
+        height: 50vh;
     }
     #imagem{
         float: right;
@@ -48,6 +49,6 @@
         font-size: 2.0em;
     }
     #formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
